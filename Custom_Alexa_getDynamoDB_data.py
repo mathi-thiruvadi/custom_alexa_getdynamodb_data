@@ -33,7 +33,7 @@ class ChineseAnimalIntentHandler(AbstractRequestHandler):
             data = ddb.get_item(
                 TableName="ChineseAnimal",
                 Key={
-                    'BirthYear': {
+                    'year': {
                         'N': year
                     }
                 }

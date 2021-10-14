@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Custom_Alexa_getDynamoDB_data.py",
         "cursor": {
-          "lineNumber": 55,
-          "column": 47
+          "lineNumber": 36,
+          "column": 23
         },
         "config": {
           "runtime": "python3.9",
@@ -93,7 +93,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1634179506802
+    "lastSave": 1634181273466
   },
   "VCS_STATE": {
     "provider": "GitHub",
