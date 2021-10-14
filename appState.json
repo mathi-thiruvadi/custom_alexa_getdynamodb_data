@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0a489c19-26e3-4970-bd1e-dfb4e090dabd": {
+        "id": "0a489c19-26e3-4970-bd1e-dfb4e090dabd",
+        "parent": null,
+        "name": "Custom_Alexa_getDynamoDB_data.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Custom_Alexa_getDynamoDB_data.py",
+        "cursor": {
+          "lineNumber": 55,
+          "column": 47
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "CustomAlexagetDynamoDBdata"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK76acba5d4cab4f279e22f95b64d0f657",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1634178875378
+      },
+      "c6e8e42f-e2d2-4468-9084-29cfe7b07497": {
+        "id": "c6e8e42f-e2d2-4468-9084-29cfe7b07497",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "0a489c19-26e3-4970-bd1e-dfb4e090dabd"
+    ],
+    "currentFileId": "0a489c19-26e3-4970-bd1e-dfb4e090dabd",
+    "resources": {
+      "alexaSK76acba5d4cab4f279e22f95b64d0f657": {
+        "name": "alexaSK76acba5d4cab4f279e22f95b64d0f657",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.76acba5d-4cab-4f27-9e22-f95b64d0f657",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "Custom_Alexa_getDynamoDB_data",
+    "projectDescription": "Read the items from dynamodb using alexa",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1634179506802
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "custom_alexa_getdynamodb_data",
+      "url": "https://github.com/mathi-thiruvadi/custom_alexa_getdynamodb_data"
+    }
+  }
+}
