@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Custom_Alexa_getDynamoDB_data.py",
         "cursor": {
-          "lineNumber": 45,
-          "column": 125
+          "lineNumber": 46,
+          "column": 31
         },
         "config": {
           "runtime": "python3.9",
