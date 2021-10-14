@@ -32,7 +32,7 @@ class ChineseAnimalIntentHandler(AbstractRequestHandler):
 
         
         #speech_text = "Your animal is a " + data['Item']['Animal']['S'] + '. Wanna know something else? Apparently you are '
-        speech_text = "working"
+        speech_text = "working" + year
         handler_input.response_builder.speak(speech_text).set_should_end_session(False)
         return handler_input.response_builder.response    
 
