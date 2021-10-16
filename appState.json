@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Custom_Alexa_getDynamoDB_data.py",
         "cursor": {
-          "lineNumber": 39,
-          "column": 20
+          "lineNumber": 38,
+          "column": 18
         },
         "config": {
           "runtime": "python3.9",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1634178875378
+        "lastUpdated": 1634395211037
       },
       "c6e8e42f-e2d2-4468-9084-29cfe7b07497": {
         "id": "c6e8e42f-e2d2-4468-9084-29cfe7b07497",
@@ -55,12 +55,31 @@
           "skillID": "amzn1.ask.skill.76acba5d-4cab-4f27-9e22-f95b64d0f657",
           "applicationID": ""
         }
+      },
+      "ddbChineseAnimal": {
+        "name": "ddbChineseAnimal",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:eu-west-1:527706125408:table/ChineseAnimal",
+            "name": "ChineseAnimal",
+            "partitionKey": "year",
+            "partitionKeyType": "N",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {}
+          }
+        }
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -80,6 +99,13 @@
           "version": "1.13.0",
           "dev": false,
           "language": "python"
+        },
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.16.43",
+          "dev": true,
+          "notRemovable": false
         }
       }
     }
